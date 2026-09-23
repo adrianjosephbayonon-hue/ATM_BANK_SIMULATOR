@@ -2,17 +2,77 @@
   {
     "accountNumber": "100001",
     "name": "Adrian Joseph",
-    "pin": "1234",
+    "pin": "2004",
     "accountType": "Savings",
-    "balance": 15000,
-    "transactions": []
+    "balance": 3098,
+    "transactions": [
+      {
+        "id": "1790154332720",
+        "date": "2026-09-23T09:05:32.720Z",
+        "type": "DEPOSIT",
+        "amount": 200,
+        "description": "Cash deposit",
+        "balanceAfter": 15200
+      },
+      {
+        "id": "1790154357992",
+        "date": "2026-09-23T09:05:57.992Z",
+        "type": "WITHDRAWAL",
+        "amount": 2,
+        "description": "Cash withdrawal",
+        "balanceAfter": 15198
+      },
+      {
+        "id": "1790156004656",
+        "date": "2026-09-23T09:33:24.656Z",
+        "type": "WITHDRAWAL",
+        "amount": 1000,
+        "description": "Cash withdrawal",
+        "balanceAfter": 14198
+      },
+      {
+        "id": "1790156062147",
+        "date": "2026-09-23T09:34:22.147Z",
+        "type": "WITHDRAWAL",
+        "amount": 10000,
+        "description": "Cash withdrawal",
+        "balanceAfter": 4198
+      },
+      {
+        "id": "1790156068688",
+        "date": "2026-09-23T09:34:28.688Z",
+        "type": "WITHDRAWAL",
+        "amount": 100,
+        "description": "Cash withdrawal",
+        "balanceAfter": 4098
+      },
+      {
+        "id": "1790156256187",
+        "date": "2026-09-23T09:37:36.187Z",
+        "type": "TRANSFER_OUT",
+        "amount": 1000,
+        "description": "Transfer to Test User",
+        "balanceAfter": 3098,
+        "relatedAccount": "100002"
+      }
+    ]
   },
   {
     "accountNumber": "100002",
     "name": "Test User",
     "pin": "5678",
     "accountType": "Savings",
-    "balance": 10000,
-    "transactions": []
+    "balance": 11000,
+    "transactions": [
+      {
+        "id": "1790156256190",
+        "date": "2026-09-23T09:37:36.190Z",
+        "type": "TRANSFER_IN",
+        "amount": 1000,
+        "description": "Transfer from Adrian Joseph",
+        "balanceAfter": 11000,
+        "relatedAccount": "100001"
+      }
+    ]
   }
 ]
