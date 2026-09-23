@@ -1,0 +1,18 @@
+[
+  {
+    "accountNumber": "100001",
+    "name": "Adrian Joseph",
+    "pin": "1234",
+    "accountType": "Savings",
+    "balance": 15000,
+    "transactions": []
+  },
+  {
+    "accountNumber": "100002",
+    "name": "Test User",
+    "pin": "5678",
+    "accountType": "Savings",
+    "balance": 10000,
+    "transactions": []
+  }
+]

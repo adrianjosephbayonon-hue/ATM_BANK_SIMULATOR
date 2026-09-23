@@ -1,0 +1,17 @@
+{
+  "name": "atm-simulator-javascript",
+  "version": "1.0.0",
+  "description": "ATM Banking Simulator developed in JavaScript for programming language comparison.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "javascript",
+    "atm",
+    "banking",
+    "programming-languages"
+  ],
+  "author": "Adrian Joseph",
+  "license": "MIT"
+}
